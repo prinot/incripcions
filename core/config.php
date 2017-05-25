@@ -37,8 +37,8 @@ date_default_timezone_set('America/Caracas');
 define('DATABASE', array(
   'host' => 'localhost',
   'user' => 'root',
-  'pass' => '',
-  'name' => 'ocrend',
+  'pass' => 'seijas1412',
+  'name' => 'db_biblioteca',
   'port' => 1521,
   'protocol' => 'TCP',
   'motor' => 'mysql'
