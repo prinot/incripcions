@@ -38,7 +38,7 @@ define('DATABASE', array(
   'host' => 'localhost',
   'user' => 'root',
   'pass' => 'seijas1412',
-  'name' => 'db_biblioteca',
+  'name' => 'biblio2017',
   'port' => 1521,
   'protocol' => 'TCP',
   'motor' => 'mysql'
