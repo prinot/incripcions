@@ -51,13 +51,13 @@ define('DATABASE', array(
   * @example "/" si para acceder al framework colocamos http://url.com en la URL, ó http://localhost
   * @example "/Ocrend-Framework/" si para acceder al framework colocamos http://url.com/Ocrend-Framework, ó http://localhost/Ocrend-Framework/
 */
-define('__ROOT__', '/Ocrend-Framework/');
+define('__ROOT__', '/proyecto-biblioteca-ocrend/');
 
 //------------------------------------------------
 
 # Constantes fundamentales
-define('URL', 'http://localhost/Ocrend-Framework/');
-define('APP', 'Ocrend Framework');
+define('URL', 'http://localhost/proyecto-biblioteca-ocrend/');
+define('APP', 'Sistema Bibliotecario');
 
 //------------------------------------------------
 

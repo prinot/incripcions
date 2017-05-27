@@ -1,22 +1,28 @@
 <?php if (DEBUG): ?>
-  <script src="views/app/js/jdev.js"></script>
+<script src="views/app/js/jdev.js"></script>
 <?php else: ?>
-  <script src="views/app/js/jquery.js"></script>
+    <script src="views/backend/js/jquery.js"></script>
 <?php endif ?>
 
+<!-- Placed js at the end of the document so the pages load faster -->
+<!--Core js-->
+<script src="views/backend/bs3/js/bootstrap.min.js"></script>
+<script class="include" type="text/javascript" src="views/backend/js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="views/backend/js/jquery.scrollTo.min.js"></script>
+<script src="views/backend/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.js"></script>
+<script src="views/backend/js/jquery.nicescroll.js"></script>
+<!--Easy Pie Chart-->
+<script src="views/backend/js/easypiechart/jquery.easypiechart.js"></script>
+<!--Sparkline Chart-->
+<script src="views/backend/js/sparkline/jquery.sparkline.js"></script>
+<!--jQuery Flot Chart-->
+<script src="views/backend/js/flot-chart/jquery.flot.js"></script>
+<script src="views/backend/js/flot-chart/jquery.flot.tooltip.min.js"></script>
+<script src="views/backend/js/flot-chart/jquery.flot.resize.js"></script>
+<script src="views/backend/js/flot-chart/jquery.flot.pie.resize.js"></script>
+<!--common script init for all pages-->
+<script src="views/backend/js/scripts.js"></script>
 <script src="views/app/js/jquery.numeric.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<?php if (!isset($_SESSION[SESS_APP_ID])): ?>
-  <?= $this->insert('overall/login') ?>
-  <?= $this->insert('overall/register') ?>
-  <?= $this->insert('overall/lostpass') ?>
-
-  <script src="views/app/js/login.js"></script>
-  <script src="views/app/js/register.js"></script>
-  <script src="views/app/js/lostpass.js"></script>
-<?php endif ?>
-
 <script>
   $('.numeric').numeric();
 </script>

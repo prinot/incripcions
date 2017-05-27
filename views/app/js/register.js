@@ -32,8 +32,7 @@ function _ini_register() {
       window.alert('#register ERORR');
     }
   });
-};
-
+}
 if(document.getElementById('register')) {
   document.getElementById('register').onclick = function(e) {
     e.preventDefault();

@@ -32,8 +32,7 @@ function _ini_login() {
       window.alert('#login ERORR');
     }
   });
-};
-
+}
 if(document.getElementById('login')) {
   document.getElementById('login').onclick = function(e) {
     e.preventDefault();
