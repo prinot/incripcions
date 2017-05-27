@@ -1,15 +1,23 @@
-<?= $this->insert('overall/header') ?>
-  <body>
-    <div class="container">
-      <div class="presentacion center">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1>404 ERROR</h1>
-            Controlador no encontrado.
-          </div>
+<?= $this->insert('overall/head') ?>
+<body class="body-404">
+
+<div class="error-head"> </div>
+
+<div class="container ">
+
+    <section class="error-wrapper text-center">
+        <h1><img src="views/backend/images/404.png" alt=""></h1>
+        <div class="error-desk">
+            <h2>Página no Existe</h2>
+            <p class="nrml-txt">No pudimos encontrar esta página</p>
         </div>
-      </div>
-    </div>
+        <a href="index.html" class="back-btn"><i class="fa fa-home"></i>Regresa a la Página de Inicio</a>
+    </section>
+
+</div>
+
+
+
     <?= $this->insert('overall/footer') ?>
   </body>
 </html>
