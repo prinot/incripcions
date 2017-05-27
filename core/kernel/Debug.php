@@ -12,9 +12,9 @@ final class Debug {
   const HEAD = '<style>
   #debug {
     margin-bottom: 18px;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
-    width: 95%;
+    width: 70%;
     background: #f7f7f9;
     border: 1px solid #e1e1e8;
     padding: 8px;
@@ -22,7 +22,9 @@ final class Debug {
     -moz-border-radius: 4px;
     -webkit-border radius: 4px;
     display: block;
-    font-size: 12.05px;
+    font-size: 14.05px;
+    position: static;
+    margin-top: 10%;
     white-space: pre-wrap;
     word-wrap: break-word;
     color: #333;
